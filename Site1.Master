@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="Tab" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page">
+            <header>
+                <asp:ContentPlaceHolder ID="Heading" runat="server">
+                </asp:ContentPlaceHolder>
+            </header>
+            <nav></nav>
+            <main>
+                <section id="left">
+                    <asp:ContentPlaceHolder ID="MainLeft" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </section>
+                <section id="right">
+                    <asp:ContentPlaceHolder ID="MainRight" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </section>
+            </main>
+            <footer>
+                <p>Created by Sibonelo - August 2026</p>
+                <asp:ContentPlaceHolder ID="FooterContent" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
