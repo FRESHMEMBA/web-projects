@@ -1,0 +1,53 @@
+﻿/*** MASTER ***/
+body {
+    font-family: Verdana;
+    background-color: lightgray;
+}
+
+#page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    color: darkred;
+    text-align: center;
+}
+
+nav {
+    background-color: gray;
+    border-bottom: solid 4px lightgray;
+}
+
+nav #NavMenu a {
+    margin-right: 2em;
+    color: darkred;
+}
+
+nav #NavMenu a:hover {
+    color: blue;
+}
+
+main {
+    background-color: gray;
+    color: lightgray;
+    display: flex;
+}
+
+#main-left {
+    flex: 3;
+}
+
+main-right {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    border-bottom: solid 4px darkred;
+}
+
+
+/*** HOME ***/

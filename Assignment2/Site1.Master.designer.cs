@@ -42,6 +42,15 @@ namespace Assignment2
         protected global::System.Web.UI.WebControls.ContentPlaceHolder Heading;
 
         /// <summary>
+        /// NavMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Menu NavMenu;
+
+        /// <summary>
         /// MainLeft control.
         /// </summary>
         /// <remarks>
@@ -66,6 +75,6 @@ namespace Assignment2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder FooterContent;
+        protected global::System.Web.UI.WebControls.SiteMapPath FooterContent;
     }
 }
