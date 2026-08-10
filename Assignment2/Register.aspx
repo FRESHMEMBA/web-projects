@@ -17,7 +17,7 @@
                 <asp:RequiredFieldValidator
                     ID="rfvName"
                     ControlToValidate="txtName"
-                    ErrorMessage="Plase enter your name!"
+                    ErrorMessage="Please enter your name!"
                     Forecolor="Red"
                     runat="server">
                 </asp:RequiredFieldValidator>
