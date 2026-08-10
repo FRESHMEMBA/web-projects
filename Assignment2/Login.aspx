@@ -3,7 +3,7 @@
     Login
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Heading" runat="server">
-    Algoa Medical Aid - Login
+    <h1>Algoa Medical Aid - Login</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainLeft" runat="server">
     <p>Already registered as a user?</p>
